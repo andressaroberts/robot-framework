@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.1 on win32)" generated="20180515 16:00:06.892">
+<suite id="s1" name="ExemplosArgumentos" source="C:\Users\ASUS\Documents\Estudos\Projetos\SuiteSiteTestePractice\tests\ExemplosArgumentos.robot">
+<test id="s1-t1" name="Caso de teste de exemplo 01">
+<kw name="Uma keyword qualquer 01">
+<msg timestamp="20180515 16:00:06.926" level="TRACE">Arguments: [  ]</msg>
+<kw name="Uma subkeyword com argumentos">
+<arguments>
+<arg>${PESSOA.nome}</arg>
+<arg>${PESSOA.email}</arg>
+</arguments>
+<msg timestamp="20180515 16:00:06.927" level="TRACE">Arguments: [ ${NOME_USUARIO}='Andressa' | ${EMAIL_USUARIO}='andressa@teste.com.br' ]</msg>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Nome Usuário:</arg>
+<arg>${NOME_USUARIO}</arg>
+</arguments>
+<msg timestamp="20180515 16:00:06.927" level="TRACE">Arguments: [ 'Nome Usuário:' | 'Andressa' ]</msg>
+<msg timestamp="20180515 16:00:06.927" level="FAIL">Invalid log level 'Andressa'.</msg>
+<status status="FAIL" starttime="20180515 16:00:06.927" endtime="20180515 16:00:06.927"></status>
+</kw>
+<status status="FAIL" starttime="20180515 16:00:06.926" endtime="20180515 16:00:06.927"></status>
+</kw>
+<status status="FAIL" starttime="20180515 16:00:06.926" endtime="20180515 16:00:06.927"></status>
+</kw>
+<status status="FAIL" starttime="20180515 16:00:06.925" endtime="20180515 16:00:06.929" critical="yes">Invalid log level 'Andressa'.</status>
+</test>
+<doc>Exemplo de uso de variáveis como argumentos em Keywords</doc>
+<status status="FAIL" starttime="20180515 16:00:06.894" endtime="20180515 16:00:06.930"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="ExemplosArgumentos">ExemplosArgumentos</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

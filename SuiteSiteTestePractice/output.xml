@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.1 on win32)" generated="20180515 15:22:26.905">
+<suite id="s1" name="Tests" source="C:\Users\ASUS\Documents\Estudos\Projetos\SuiteSiteTestePractice\tests">
+<suite id="s1-s1" name="ExemploTarefaArgumentos" source="C:\Users\ASUS\Documents\Estudos\Projetos\SuiteSiteTestePractice\tests\ExemploTarefaArgumentos.robot">
+<test id="s1-s1-t1" name="Caso de teste 01">
+<kw name="Uma keyword qualquer 01">
+<kw name="Uma subkeyword com argumentos">
+<arguments>
+<arg>${PESSOA.nome}</arg>
+<arg>${PESSOA.email}</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Nome Usuário:</arg>
+<arg>${NOME_USUARIO}</arg>
+</arguments>
+<msg timestamp="20180515 15:22:26.939" level="FAIL">Invalid log level 'Andressa'.</msg>
+<status status="FAIL" starttime="20180515 15:22:26.939" endtime="20180515 15:22:26.939"></status>
+</kw>
+<status status="FAIL" starttime="20180515 15:22:26.938" endtime="20180515 15:22:26.939"></status>
+</kw>
+<status status="FAIL" starttime="20180515 15:22:26.938" endtime="20180515 15:22:26.939"></status>
+</kw>
+<status status="FAIL" starttime="20180515 15:22:26.937" endtime="20180515 15:22:26.941" critical="yes">Invalid log level 'Andressa'.</status>
+</test>
+<doc>Exemplo de uso de variáveis como argumentos em Keywords</doc>
+<status status="FAIL" starttime="20180515 15:22:26.934" endtime="20180515 15:22:26.942"></status>
+</suite>
+<status status="FAIL" starttime="20180515 15:22:26.907" endtime="20180515 15:22:26.944"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="1" id="s1-s1" name="ExemploTarefaArgumentos">Tests.ExemploTarefaArgumentos</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
