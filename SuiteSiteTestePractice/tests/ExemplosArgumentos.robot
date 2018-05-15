@@ -16,8 +16,8 @@ Uma keyword qualquer 01
 
 Uma subkeyword com argumentos
     [Arguments]   ${NOME_USUARIO}   ${EMAIL_USUARIO}
-    Log           Nome Usuário:   ${NOME_USUARIO}
-    Log           Email:    ${EMAIL_USUARIO}
+    Log           Nome Usuário: ${NOME_USUARIO}
+    Log           Email: ${EMAIL_USUARIO}
 
 Uma subkeyword com retorno
     [Arguments]   ${NOME_USUARIO}   ${IDADE_USUARIO}
